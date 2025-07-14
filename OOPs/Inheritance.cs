@@ -34,7 +34,7 @@ public class Goku:Alien
         Console.WriteLine("Goku makes a sound");
     }
 }
-public class OOPs
+public class Inheritance
 {
     public static void Main(string[] args)
     {
@@ -55,6 +55,6 @@ public class OOPs
 
         Alien anotherGoku = new Goku();
         anotherGoku.Speak(); // Output: Goku makes a sound (not polymorphism, as Goku does not override Alien's Speak method)
-
+        PolymorphismDemo.Run();
     }
 }
