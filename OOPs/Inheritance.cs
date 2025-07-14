@@ -56,5 +56,6 @@ public class Inheritance
         Alien anotherGoku = new Goku();
         anotherGoku.Speak(); // Output: Goku makes a sound (not polymorphism, as Goku does not override Alien's Speak method)
         PolymorphismDemo.Run();
+        GenericDemo.RunGeneric();
     }
 }
